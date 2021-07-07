@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://localhost:1313"
+baseURL = "https://condescending-noether-5e214e.netlify.app"
 languageCode = "en-us"
 title = "Samantha North"
 theme = "liva-hugo"
