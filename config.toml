@@ -1,6 +1,6 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://condescending-noether-5e214e.netlify.app/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Samantha North"
 theme         = "roxo"
 summarylength = 25
 
