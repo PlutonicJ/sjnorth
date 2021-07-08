@@ -22,3 +22,22 @@
 #TableOfContents nav {
     margin-top: 30px;
 }
+
+.navigation {
+    background:#fff;
+    height:60px;
+    z-index:170;
+    margin:0 auto;
+    border-bottom:1px solid #dadada;
+    position:fixed;
+    top:0;
+    left:0px;
+    right:0;
+    text-align: center;
+    padding: 10px;
+}
+
+.sticky {
+    background: #fff !important;
+    border-radius: 0%;
+}
