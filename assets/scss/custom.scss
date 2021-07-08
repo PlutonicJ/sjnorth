@@ -1,0 +1,15 @@
+// Put custom SCSS rules in this file
+// Documentation: https://sass-lang.com/documentation
+
+.author-img {
+    text-align: center;
+}
+
+.author-text a, .author-text a:hover, .author-text a:visited {
+    color: blue;
+}
+
+.author-text ul {
+    list-style-type: disc;
+    margin: 0 0 30px;
+}
