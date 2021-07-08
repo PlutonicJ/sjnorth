@@ -1,116 +1,127 @@
-######################## default configuration ####################
-baseURL = "https://condescending-noether-5e214e.netlify.app"
-languageCode = "en-us"
-title = "Samantha North"
-theme = "liva-hugo"
-summaryLength = "10"
-paginate = 6
-disqusShortname = ""
+baseURL       = "http://example.org/"
+languageCode  = "en-us"
+title         = "Roxo | Creative Design Agency"
+theme         = "roxo"
+summarylength = 25
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-############################# Plugins ##############################
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/venobox/venobox.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/venobox/venobox.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/fuse.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/mark.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/search.js"
-
-
-############################## navigation ###############################
+# Site Menus
 [menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 5
 
-  # main menu
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 1
-
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
-
-  # footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 1
-
-  [[menu.footer]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
-
-
-#################### default parameters ################################
+# Site Params
 [params]
-logo = "images/logo.png"
-home = "Home"
-# Meta data
-description = "This is meta description"
-author = "Samantha North"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = ""
-# copyright
-copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
 
-  # Preloader
-  [params.preloader]
-  enable = true
-  preloader = "" # use .png , .svg or .gif format
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
 
-  # search
-  [params.search]
-  enable = false
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = false
+    name    = "Get in touch"
+    url     = "contact"
+  
 
-############################ news letter ########################
-[params.newsletter]
-enable = false
-title = "Join Our Newsletter"
-content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+  # Banner Section
+  [params.banner]
+    enable                = false
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "We’re a Design Studio That Belies In the Great Ideas"
+    tagline               = "WE WORK HARD, WE PLAY HARD"
+    primary_button        = "See Our Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
 
+  [params.portfolio]
+    enable    = false
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
+  [params.call_to_action]
+    enable              = false
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
 
-
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+      phone   = "409-896-1444"
+      email   = "info@roxo.co"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Medium"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Behance"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Dribbble"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"

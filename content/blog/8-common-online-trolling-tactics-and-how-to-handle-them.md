@@ -1,13 +1,10 @@
 ---
 title: "8 Common Online Trolling Tactics (And How to Handle Them)"
 date: 2020-09-30T10:07:47+06:00
-draft: false
 
 # post thumb
-image: "images/post/Copy-of-online_trolling.jpg"
-
-# meta description
-description: "this is meta description"
+image: images/post/Copy-of-online_trolling.jpg
+feature_image: images/post/Copy-of-online_trolling.jpg
 
 # taxonomies
 categories:
@@ -19,8 +16,6 @@ tags:
   - "Influence Ops"
   - "Online Trolling"
 
-# post type
-type: "post"
 
 aliases:
   - /8-common-online-trolling-tactics-and-how-to-handle-them/

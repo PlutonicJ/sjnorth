@@ -5,9 +5,7 @@ draft: false
 
 # post thumb
 image: "images/post/tribalism.jpg"
-
-# meta description
-description: "this is meta description"
+feature_image: "images/post/tribalism.jpg"
 
 # taxonomies
 categories:
@@ -19,8 +17,6 @@ tags:
   - "Dopamine Loop"
   - "Tribalism"
 
-# post type
-type: "post"
 
 aliases:
   - /how-political-tribalism-drives-disinformation/

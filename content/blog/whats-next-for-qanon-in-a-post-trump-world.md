@@ -5,17 +5,12 @@ draft: false
 
 # post thumb
 image: "images/post/blog-images-1.jpg"
-
-# meta description
-description: "this is meta description"
+feature_image: "images/post/blog-images-1.jpg"
 
 # taxonomies
 categories:
   - "Disinformation In Politics"
   - "Violent Extremism"
-
-# post type
-type: "post"
 
 aliases:
   - /whats-next-for-qanon-in-a-post-trump-world/
