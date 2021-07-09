@@ -2,5 +2,5 @@
 title: Test page
 ---
 
-{{< spotify "spotify:album:57oryV2mZbhyoy7u3k0lqg" >}}
+{{< spotify "embed/album/57oryV2mZbhyoy7u3k0lqg" >}}
 {{< youtube "uvhDmp3PuAw" >}}
