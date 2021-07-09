@@ -6,15 +6,15 @@ menu:
 
 ############################### Banner ##############################
 banner:
-  enable: false
-  bg_image: "images/slider-bg.jpg"
+  enable: true
+  bg_image: "images/mobile-phone-426559_1280.jpg"
   bg_overlay: true
-  title: "A Digital Marketing <br/> & Design Agency"
+  title: "DEMYSTIFY DISINFORMATION"
   content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
   button:
     enable: true
-    label: "Discover Our Project"
-    link: "project"
+    label: "READ MORE"
+    link: "blog"
 
 ############################# About #################################
 about:
@@ -28,16 +28,9 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable: false
-  bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
+  bg_image: "images/mobile-phone-426559_1280.jpg"
+  title: "DEMYSTIFY DISINFORMATION"
+  content: "The internet is full of frauds and fakes. Learn how to spot the key signs of inauthentic online behaviour, so you can stop bad actors from compromising your brand value, reputation, or political campaign. "
   button:
     enable: true
     label: "View Works"
@@ -46,7 +39,7 @@ portfolio:
 
 ############################# Service ############################
 service:
-  enable: false
+  enable: true
   # service content comes from "service.md" file
 
 
@@ -63,48 +56,15 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  enable: false
-  title: "Fun Facts About Us"
-  description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
-  funfact_item:
-  # funfacts item loop
-  - icon: "ion-ios-chatboxes-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Cups Of Coffee"
-    count: "99"
-
-  # funfacts item loop
-  - icon: "ion-ios-glasses-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Article Written"
-    count: "45"
-
-  # funfacts item loop
-  - icon: "ion-ios-compose-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Projects Completed"
-    count: "125"
-
-  # funfacts item loop
-  - icon: "ion-ios-timer-outline" #ionicon pack v2: https://ionicons.com/v2/
-    name: "Combined Projects"
-    count: "200"
+  enable: true
+  title: "What are others saying?"
+  description: ""
 
   testimonial_slider:
   # testimonial item loop
-  - name: "Raymond Roy"
-    image: "images/clients/avater-1.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
-
-  # testimonial item loop
-  - name: "Randi Renin"
-    image: "images/clients/avater-1.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
-
-  # testimonial item loop
-  - name: "Rose Rio"
-    image: "images/clients/avater-3.jpg"
-    designation: "CEO-Themefisher"
-    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
-
+  - name: "Matthew Brock"
+    image: "images/nisos_logo.png"
+    designation: "Managing Director, Nisos Inc."
+    content: "Samantha North has been an extraordinary asset to Nisos in investigating disinformation campaigns on sensitive election security matters. Her work has directly resulted in real-world action taken to protect democratic election processes."
 
 ---
